@@ -1,0 +1,58 @@
+
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLzJ5BYlqvjKPi3_5qk1d36TLYSYR1ZkcYwYS6Y2mXog&usqp=CAU&ec=48665699);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    backface-visibility: visible;
+}
+
+.container{
+    margin: auto;
+    padding: auto;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.container-imput{
+    border: black 1px solid;
+    display: flex;
+    align-self: center;
+   
+}
+.btn{
+    border: black solid 2px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+input{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+li{
+    color: rgb(21, 18, 18);       
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.8cm;
+    display: flex;
+    justify-content: center;
+    list-style-type: decimal;
+}
+li:hover{
+    cursor: pointer;
+    text-shadow: 2px;
+    color: rgb(228, 108, 10);
+}
